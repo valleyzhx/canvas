@@ -1,0 +1,73 @@
+{
+
+  "1990":[
+    {"city":"Beijing","cirle":52},
+    {"city":"Hong Kong","cirle":345},
+    {"city":"Kaohsiung","cirle":1},
+    {"city":"Shanghai","cirle":108},
+    {"city":"Shaoguan","cirle":1},
+    {"city":"Taipei","cirle":486}
+  ],
+  "1995":[
+    {"city":"Beijing","cirle":80},
+    {"city":"Hong Kong","cirle":470},
+    {"city":"Kaohsiung","cirle":14},
+    {"city":"Shanghai","cirle":102},
+    {"city":"Taipei","cirle":559},
+    {"city":"Xichang","cirle":2}
+  ],
+  "2000":[
+    {"city":"Beijing","cirle":163},
+    {"city":"Guangzhou","cirle":12},
+    {"city":"Hong Kong","cirle":523},
+    {"city":"Kaohsiung","cirle":25},
+    {"city":"Macau, Macau","cirle":32},
+    {"city":"Shanghai","cirle":232},
+    {"city":"Shenzhen","cirle":9},
+    {"city":"Taipei","cirle":584},
+    {"city":"Tianjin","cirle":1}
+  ],
+  "2005":[
+    {"city":"Beijing","cirle":188},
+    {"city":"Guangzhou","cirle":32},
+    {"city":"Hong Kong","cirle":524},
+    {"city":"Kaohsiung","cirle":1},
+    {"city":"Macau, Macau","cirle":34},
+    {"city":"Nanjing","cirle":24},
+    {"city":"Shanghai","cirle":414},
+    {"city":"Shenyang","cirle":1},
+    {"city":"Shenzhen","cirle":40},
+    {"city":"Taipei","cirle":543},
+    {"city":"Xiamen","cirle":24},
+    {"city":"Yinchuan","cirle":1}
+  ],
+  "2010":[
+    {"city":"Beijing","cirle":221},
+    {"city":"Guangzhou","cirle":31},
+    {"city":"Hong Kong","cirle":528},
+    {"city":"Nanjing","cirle":19},
+    {"city":"Qingdao","cirle":1},
+    {"city":"Shanghai","cirle":419},
+    {"city":"Shenzhen","cirle":14},
+    {"city":"Taipei","cirle":404},
+    {"city":"Tianjin","cirle":3},
+    {"city":"Yantai","cirle":1}
+  ],
+  "2015":[
+    {"city":"Beijing","cirle":140},
+    {"city":"Changsha","cirle":3},
+    {"city":"Chengdu","cirle":15},
+    {"city":"Chongqing","cirle":1},
+    {"city":"Guangzhou","cirle":26},
+    {"city":"Hangzhou","cirle":2},
+    {"city":"Hong Kong","cirle":416},
+    {"city":"Nanjing","cirle":6},
+    {"city":"Shanghai","cirle":440},
+    {"city":"Shenyang","cirle":1},
+    {"city":"Shenzhen","cirle":15},
+    {"city":"Taipei","cirle":272},
+    {"city":"Tianjin","cirle":1},
+    {"city":"Wuhan","cirle":6},
+    {"city":"Zhengzhou","cirle":22}
+  ]
+}
