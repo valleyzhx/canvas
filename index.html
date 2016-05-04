@@ -5,6 +5,7 @@
 <script  type="text/processing" data-processing-target="mycanvas">
 var myPicture;
 var yearNumber;
+var index = 0;
 var array;
 var json = [
   [
@@ -91,7 +92,7 @@ void setup() {
   yearNumber = 1990;
 
   array = json[0];
-  console.log(array.toString());
+  console.log(array[0].city);
 }
 
 void draw() {
@@ -101,26 +102,26 @@ void draw() {
   fill(100, 102, 153);
   text(yearStr, 380,80);
 
-  fill('red');
-
   textSize(20);
 
-  for (var dic in array) {
-    var city = dic.city;
-    var cirle = dic.cirle;
+  for (i in array) {
+    var city = array[i].city;
+    var cirle = array[i].cirle;
     drawEllipse(city,cirle);
   }
 
 }
 void mouseClicked(){
   yearNumber += 5;
+  index++;
   if (yearNumber == 2020) {
     yearNumber = 1990;
+    index = 0;
   }
-  console.log(yearNumber);
+  array = json[index];
   redraw();
 }
-function drawEllipse(city,cirle){
+void drawEllipse(city,cirle){
 var wid = 10;
 if (cirle>500) {
   wid = 60;
